@@ -1,0 +1,10 @@
+x=0:1/1000:5*pi;
+y1=sin(x+1);
+y2=exp(0.5.*x);
+y3=y1+y2;
+subplot(2,2,1)
+plot(x,y1)
+subplot(2,2,2)
+plot(x,y2)
+subplot(2,2,3)
+plot(x,y3)

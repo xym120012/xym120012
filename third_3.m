@@ -1,0 +1,9 @@
+x=0:0.01:2*pi;
+y1=sin(x+1);
+y2=cos(x)+1;
+figure
+plot(x,y1,'--r','LineWidth',2)
+legend("正弦曲线")
+figure
+plot(x,y2,'--g','LineWidth',2)
+legend("余弦曲线")
